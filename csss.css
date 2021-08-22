@@ -1,0 +1,56 @@
+.title-container{
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title-1{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 2.3em;
+	color: blue;
+}
+.main-container{
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imagen-container{
+	width: 20em;
+	height: 20em;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.botones-container{
+	height: 11vh;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+}
+.boton{
+	width: 6em;
+	height: 2em;
+	background-color: gray;
+}
+.img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	animation-name: thanos;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-play-state: paused;
+	animation-direction: normal;
+	animation-timing-function: linear;
+
+}
+@keyframes thanos{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
